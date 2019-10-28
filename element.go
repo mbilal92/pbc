@@ -163,7 +163,7 @@ func (el *Element) ensureChecked() {
 
 func (el *Element) checkCompatible(other *Element) {
 	other.ensureChecked()
-	checkFieldsMatch(el.fieldPtr, other.fieldPtr)
+	//checkFieldsMatch(el.fieldPtr, other.fieldPtr)
 }
 
 func (el *Element) checkAllCompatible(elements ...*Element) {
